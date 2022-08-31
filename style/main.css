@@ -13,9 +13,20 @@ body {
     padding-top: 50px;
     height: 800px;
     background-color: #265847;
-    background-image: url("../image/travel.jpg");
+    background-image: url("../image/header/travel.jpg");
     background-position: center;
     background-size: cover;
+    color: #FFFFFF;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url("../image/header/header_small.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
 }
 
 .header-top {
@@ -83,7 +94,7 @@ body {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url("../image/arrow-down.svg");
+    background-image: url("../image/header/arrow-down.svg");
 
 }
 .main {
@@ -197,6 +208,71 @@ body {
 .footer-widget-wrapper {
     display: flex;
 }
-
+/*Page Tours*/
+.inner-page-tours {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.inner-page-tours-header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.wrapper-row {
+    display: flex;
+    column-gap: 30px;
+    width: 1170px;
+}
+.card {
+    width: 570px;
+}
+.card.bigger {
+    width: 670px;
+}
+.card.small {
+    width: 470px;
+}
+.card-bottom {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+    color: #FFFFFF;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.card-bottom-tours {
+    background-color: #A6A6A6;
+}
+.card-bottom-recreation {
+    background-color: #C1B19B;
+}
+.card-bottom-incredible {
+    background-color: #66B0BE;
+}
+.card-bottom-tracking {
+    background-color: #876F56;
+}
+.card-bottom-exotic {
+    background-color:  #27695E;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.wrapper-row-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.card-link-wrapper {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 /*font-family: 'Lobster', cursive;*/
 /*font-family: 'PT Sans', sans-serif;*/
