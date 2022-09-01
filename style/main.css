@@ -225,7 +225,6 @@ body {
 .wrapper-row {
     display: flex;
     column-gap: 30px;
-    width: 1170px;
 }
 .card {
     width: 570px;
@@ -237,9 +236,7 @@ body {
     width: 470px;
 }
 .card-bottom {
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 30px;
+    padding: 22px 30px;
     color: #FFFFFF;
     overflow: hidden;
     white-space: nowrap;
