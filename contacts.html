@@ -29,20 +29,80 @@
             <div class="contact-info">
                 <div class="contact-block">
                     <h4 class="contact-block-title">Телефон и адрес</h4>
-                    <div class="content-block-body">
-                        +7 (905) 555-55-55
-                        info@foresttravel.com
-                        г. Москва, Рязанский проспект 54, офис 112.
+                    <div class="contact-block-body">
+                        <ul class="contact-list">
+                            <li class="contact-list-item item-1"><a href="tel:+79055555555">+7 (905) 555-55-55</a></li>
+                            <li class="contact-list-item item-2"><a href="mailto:info@foresttravel.com">info@foresttravel.com</a></li>
+                            <li class="contact-list-item item-3"> г. Москва, Рязанский проспект 54, офис 112.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="contact-block">
                     <h4 class="contact-block-title">Карта</h4>
                     <div class="content-block-body">
-                        <img src="./image/contact/map.jpg" alt="map">
+<!--                        <img src="./image/contact/map.jpg" alt="map">-->
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af56848b7e915112fb704e0ec2b1e350e4ceff9f2f8c05d032e5cd1c849ba9e56&amp;source=constructor"
+                                width="470" height="345" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
-            <div class="contact-form">Form</div>
+            <form class="form">
+                  <div class="form-title">Заявка на подбор тура</div>
+                   <div class="form-group">
+                       <div class="form-group-title">Личные данные</div>
+                       <div class="form-group-row">
+                           <input class="input" type="text" placeholder="Введите имя">
+                       </div>
+                        <div class="form-group-row">
+                            <input class="input" type="tel" placeholder="Телефон" required>
+                            <input class="input" type="email" placeholder="Email" required>
+                        </div>
+                   </div>
+                <div class="form-group">
+                    <div class="form-group-title"> Количество человек для тура</div>
+                    <label class="radio-row">
+                        <input class="real-radio" type="radio" name="number-of-people">
+                        <span class="custom-radio"></span>
+                        <span>2 - 4 человека</span>
+                    </label>
+                    <label class="radio-row">
+                        <input class="real-radio" type="radio" name="number-of-people">
+                        <span class="custom-radio"></span>
+                        <span>5 - 10 человек</span>
+                    </label>
+                    <label class="radio-row">
+                        <input class="real-radio" type="radio" name="number-of-people">
+                        <span class="custom-radio"></span>
+                        <span>11 человек и более</span>
+                    </label>
+                </div>
+                    <div class="form-group">
+                        <div class="form-group-title">Какие направления вам интересны</div>
+                        <label class="checkbox-row">
+                            <input class="real-checkbox" type="checkbox" name="2-4">
+                            <span class="custom-checkbox"></span>
+                            <span>
+                            Трекинг туры, походы по горам и пересеченной местности.
+                            </span>
+                        </label>
+                        <label class="checkbox-row">
+                            <input class="real-checkbox" type="checkbox" name="2-4">
+                            <span class="custom-checkbox"></span>
+                            <span>Восхождения на вершины.</span>
+                        </label>
+                        <label class="checkbox-row">
+                            <input class="real-checkbox" type="checkbox" name="2-4">
+                            <span class="custom-checkbox"></span>
+                            <span>Экзотические джунгли, вулканы.</span>
+                        </label>
+                        <label class="checkbox-row">
+                            <input class="real-checkbox" type="checkbox" name="2-4">
+                            <span class="custom-checkbox"></span>
+                            <span>Комбинированные: море, горы, города, лес.</span>
+                        </label>
+                </div>
+                <input class="button" type="submit" value="Отправить заявку">
+            </form>
         </div>
     </div>
 </main>
@@ -77,8 +137,8 @@
                         <li><a href="#!">Трекинг походы</a></li>
                     </ul>
                 </div>
-                <div class="footer-widget">
-                    <h4 class="footer-widget-title footer-widget-contacts">Контакты</h4>
+                <div class="footer-widget footer-widget-contacts">
+                    <h4 class="footer-widget-title">Контакты</h4>
                     <ul class="footer-widget-list">
                         <li><a href="tel:+7905555-55-55">+7 (905) 555-55-55</a></li>
                         <li><a href="mailto: info@foresttravel.com">info@foresttravel.com</a></li>
