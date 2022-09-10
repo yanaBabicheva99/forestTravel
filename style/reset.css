@@ -53,7 +53,7 @@ img {
     vertical-align: top;
 }
 
-img, svg {
+ svg {
     max-width: 100%;
     height: auto;
 }
@@ -92,12 +92,19 @@ button::-moz-focus-inner {
 label {
     cursor: pointer;
 }
-
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 legend {
+    margin: 0;
+    padding: 0;
+    border: none;
     display: block;
 }
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }

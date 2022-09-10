@@ -2,8 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contacts</title>
+    <title>Контакты - агенство Форест Тревел</title>
     <link rel="stylesheet" href="./style/main.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/image/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/image/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/image/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/image/favicon/favicon.ico">
+
+    <meta name="msapplication-TileColor" content="#a6bbc8">
+    <meta name="msapplication-config" content="/image/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 <header class="header-inner">
@@ -28,7 +39,7 @@
         <div class="contacts-row">
             <div class="contact-info">
                 <div class="contact-block">
-                    <h4 class="contact-block-title">Телефон и адрес</h4>
+                    <h2 class="contact-block-title">Телефон и адрес</h2>
                     <div class="contact-block-body">
                         <ul class="contact-list">
                             <li class="contact-list-item item-1"><a href="tel:+79055555555">+7 (905) 555-55-55</a></li>
@@ -38,7 +49,7 @@
                     </div>
                 </div>
                 <div class="contact-block">
-                    <h4 class="contact-block-title">Карта</h4>
+                    <h2 class="contact-block-title">Карта</h2>
                     <div class="contact-block-body">
 <!--                        <img src="./image/contact/map.jpg" alt="map">-->
                         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af56848b7e915112fb704e0ec2b1e350e4ceff9f2f8c05d032e5cd1c849ba9e56&amp;source=constructor"
@@ -47,9 +58,9 @@
                 </div>
             </div>
             <form class="form">
-                  <h4 class="form-title">Заявка на подбор тура</h4>
-                   <div class="form-group">
-                       <h5 class="form-group-title">Личные данные</h5>
+                  <h2 class="form-title">Заявка на подбор тура</h2>
+                   <fieldset class="form-group">
+                       <legend class="form-group-title">Личные данные</legend>
                        <div class="form-group-row">
                            <input class="input" type="text" placeholder="Введите имя">
                        </div>
@@ -57,9 +68,9 @@
                             <input class="input" type="tel" placeholder="Телефон" required>
                             <input class="input" type="email" placeholder="Email" required>
                         </div>
-                   </div>
-                <div class="form-group">
-                    <h5 class="form-group-title"> Количество человек для тура</h5>
+                   </fieldset>
+                <fieldset class="form-group">
+                    <legend class="form-group-title"> Количество человек для тура</legend>
                     <label class="radio-row">
                         <input class="real-radio" type="radio" name="number-of-people">
                         <span class="custom-radio"></span>
@@ -75,9 +86,9 @@
                         <span class="custom-radio"></span>
                         <span>11 человек и более</span>
                     </label>
-                </div>
-                    <div class="form-group">
-                        <h5 class="form-group-title">Какие направления вам интересны</h5>
+                </fieldset>
+                    <fieldset class="form-group">
+                        <legend class="form-group-title">Какие направления вам интересны</legend>
                         <label class="checkbox-row">
                             <input class="real-checkbox" type="checkbox" name="2-4">
                             <span class="custom-checkbox"></span>
@@ -100,7 +111,7 @@
                             <span class="custom-checkbox"></span>
                             <span>Комбинированные: море, горы, города, лес.</span>
                         </label>
-                </div>
+                </fieldset>
                 <input class="button" type="submit" value="Отправить заявку">
             </form>
         </div>
