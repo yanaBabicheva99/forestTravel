@@ -6,7 +6,11 @@
     .header {
         height: 591px;
     }
-    .header-top, .header-content {
+    .header-top {
+        width: 100%;
+        padding: 0 15px;
+    }
+     .header-content {
         width: 900px;
         padding: 0 15px;
     }
@@ -77,7 +81,10 @@
     .container {
         width: 600px;
     }
-    .header-top, .header-content {
+    .header-top {
+        width: 100%;
+    }
+     .header-content {
         width: 600px;
     }
     .header-title {
@@ -148,7 +155,7 @@
         width: 320px;
     }
     .header-top, .header-content {
-        width: 320px;
+        width: 100%;
     }
     .logo {
         font-size: 30px;
@@ -168,6 +175,9 @@
     }
     .main {
         padding: 40px 0;
+    }
+    .main .container {
+        width: 100%;
     }
     .main-header {
         font-size: 34px;
