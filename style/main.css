@@ -480,11 +480,16 @@ input {
 .form-group:last-of-type {
     margin-bottom: 35px;
 }
+
 .form-group-title {
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 700;
 }
+.form-group +.form-group .form-group-title {
+    margin-bottom: 13px;
+}
+
 .input {
     width: 100%;
     padding-left: 20px;
@@ -505,13 +510,17 @@ input {
     display: flex;
     justify-content: space-between;
     column-gap: 10px;
+}
+.form-group-row:not(:last-child) {
     margin-bottom: 10px;
 }
 .radio-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
     cursor: pointer;
+}
+.radio-row:not(:last-child) {
+    margin-bottom: 20px;
 }
 .real-radio {
     width: 0;
@@ -563,8 +572,9 @@ input {
 .checkbox-row {
     display: flex;
     align-items: flex-start;
+}
+.checkbox-row:not(:last-child) {
     margin-bottom: 17px;
-
 }
 .real-checkbox:checked + .custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);

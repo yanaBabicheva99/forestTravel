@@ -47,18 +47,6 @@
     .contact-block-body {
         font-size: 18px;
     }
-    .form-group {
-        margin-bottom: 20px;
-    }
-    .form-group + .form-group {
-        margin-bottom: 10px;
-    }
-    .form-group:last-of-type {
-        margin-bottom: 18px;
-    }
-    .form-group + .form-group .form-group-title {
-        margin-bottom: 13px;
-    }
     /*footer*/
     .footer {
         padding-top: 50px;
@@ -121,16 +109,13 @@
     .form {
         padding: 30px;
     }
+    .form-group:last-of-type {
+        margin-bottom: 30px;
+    }
     .button {
         font-size: 18px;
         padding-left: 30px;
         padding-right: 30px;
-    }
-    .form-group + .form-group {
-        margin-bottom: 13px;
-    }
-    .form-group:last-of-type {
-        margin-bottom: 10px;
     }
     /*footer*/
     .footer {
@@ -192,14 +177,17 @@
     }
     .form-group {
         font-size: 16px;
-        margin-bottom: 11px;
+        margin-bottom: 20px;
     }
-    .radio-row {
+
+    .radio-row:not(:last-child) {
         margin-bottom: 10px;
+    }
+    .checkbox-row:not(:last-child) {
+        margin-bottom: 20px;
     }
     .checkbox-row {
         padding-right: 5px;
-        margin-bottom: 20px;
     }
     .form-group-row:last-child {
         flex-wrap: wrap;
@@ -216,7 +204,7 @@
         margin-bottom: 10px;
     }
     .form-group:last-of-type {
-        margin-bottom: -1px;
+        margin-bottom: 20px;
     }
     .button {
         padding-left: 35px;

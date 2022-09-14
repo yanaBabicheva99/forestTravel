@@ -39,15 +39,6 @@
     .card-title {
         font-size: 24px;
     }
-    .card img {
-        height: 240px;
-    }
-    .card.bigger img {
-        height: 210px;
-    }
-    .card.small img {
-        height: 510px;
-    }
     /*footer*/
     .footer {
         padding-top: 50px;
@@ -109,13 +100,6 @@
     .card, .card.bigger, .card.small {
         width: 570px;
     }
-    .card.small img {
-        height: 210px;
-    }
-    .card img {
-        object-fit: cover;
-    }
-
     /*footer*/
     .footer {
         padding-top: 40px;
